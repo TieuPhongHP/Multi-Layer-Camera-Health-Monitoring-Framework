@@ -1,0 +1,66 @@
+{
+  "variants": {
+    "S0 reference (paper setting)": {
+      "prop": 0.9,
+      "artefact_p": 0.16,
+      "concurrent_p": 0.0
+    },
+    "S1 weak propagation (decay 0.45)": {
+      "prop": 0.45,
+      "artefact_p": 0.16,
+      "concurrent_p": 0.0
+    },
+    "S2 no propagation (independent layers)": {
+      "prop": 0.0,
+      "artefact_p": 0.16,
+      "concurrent_p": 0.0
+    },
+    "S3 frequent lower-layer artefacts (p=0.50)": {
+      "prop": 0.9,
+      "artefact_p": 0.5,
+      "concurrent_p": 0.0
+    },
+    "S4 concurrent independent faults (p=0.25)": {
+      "prop": 0.9,
+      "artefact_p": 0.16,
+      "concurrent_p": 0.25
+    }
+  },
+  "thresholds": {
+    "S0 reference (paper setting)": {
+      "L0": 0.58,
+      "L1": 0.58,
+      "L2": 0.62,
+      "L3": 0.64,
+      "L4": 0.64
+    },
+    "S1 weak propagation (decay 0.45)": {
+      "L0": 0.58,
+      "L1": 0.58,
+      "L2": 0.62,
+      "L3": 0.64,
+      "L4": 0.64
+    },
+    "S2 no propagation (independent layers)": {
+      "L0": 0.58,
+      "L1": 0.58,
+      "L2": 0.62,
+      "L3": 0.64,
+      "L4": 0.64
+    },
+    "S3 frequent lower-layer artefacts (p=0.50)": {
+      "L0": 0.58,
+      "L1": 0.58,
+      "L2": 0.62,
+      "L3": 0.64,
+      "L4": 0.64
+    },
+    "S4 concurrent independent faults (p=0.25)": {
+      "L0": 0.58,
+      "L1": 0.58,
+      "L2": 0.62,
+      "L3": 0.64,
+      "L4": 0.64
+    }
+  }
+}

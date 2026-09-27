@@ -1,0 +1,10 @@
+{
+  "seed": 20260728,
+  "n_sites": 10,
+  "cameras_per_site": 8,
+  "days": 10,
+  "dev_sites": 7,
+  "fault_rate_per_camera_day": 0.45,
+  "nuisance_rate_per_camera_day": 1.4,
+  "baseline_missingness": 0.05
+}

@@ -1,0 +1,2 @@
+No operational camera video, personal data, or human-subject data is included.
+All event labels and telemetry in this package are synthetically generated.
